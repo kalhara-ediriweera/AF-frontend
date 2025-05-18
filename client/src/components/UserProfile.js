@@ -1,4 +1,5 @@
-import React, { useState, useEffect, Navigate  } from 'react';
+import React, { useState, useEffect  } from 'react';
+import { Navigate } from 'react-router-dom';
 import axios from 'axios';
 import useAuth from '../hooks/useAuth';  // Custom hook to manage authentication state
 import 'animate.css'; // Importing Animate.css for animation
